@@ -16,7 +16,7 @@ public class ShadowrunArena {
 		 * combatants and can be adjusted (needs to be greater than two).
 		 * Combatants have random attributes, skills, and equipment suited
 		 * for their class. They get assigned to random factions (at least
-		 * two, maximum is size of Faction Enum - 1) and then battle to the death.
+		 * two, maximum is size of Faction Enum - 1) and then battle to death.
 		 */
 		
 		CombatPrep cp = new CombatPrep(RandomInt.randInt(2, 12));	
