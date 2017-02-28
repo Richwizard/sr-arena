@@ -142,11 +142,7 @@ public class Attack {
 	}
 	
 	private int effArm()	{
-		int effArm = getEffArm();
-		if ( effArm > 0)	{
-			return effArm;
-		}
-		return 0;
+		return getEffArm();
 	}
 	
 	public int getEffArm()	{
@@ -154,11 +150,11 @@ public class Attack {
 	}
 	
 	private void rslveDmg(int netDmg)	{		
-		if (isImmune)	{
+		if(isImmune)	{
 			Message.isDmgImmune(opnt, dmgType);
-		} else if	(dmgType == DmgType.STUN)	{
+		} else if(dmgType == DmgType.STUN)	{
 			rslveStunDmg(netDmg);
-		} else	if (dmgType == DmgType.PHYSICAL)	{
+		} else	if(dmgType == DmgType.PHYSICAL)	{
 			rslvePhysDmg(netDmg);
 		}
 	}

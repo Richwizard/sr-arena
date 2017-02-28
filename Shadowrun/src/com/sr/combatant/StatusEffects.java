@@ -184,7 +184,7 @@ public class StatusEffects {
 		return hasMelee;
 	}
 	
-	public void tickDthTmr()	{
+	public void tickBleedTmr()	{
 		if(cmbtntType == CombatantType.PERSON)	{
 			Person pers = (Person) cmbtnt;
 			this.dthTmr++;

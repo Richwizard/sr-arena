@@ -100,8 +100,7 @@ public class Arena {
 	
 	private void resetExhstd()	{
 		for (int i = 0; i < combtnts.size(); i++)	{
-			Combatant cmbtnt = combtnts.get(i);
-			cmbtnt.getStat().setExhstd(false);
+			combtnts.get(i).getStat().setExhstd(false);
 		}
 	}
 	
@@ -109,7 +108,7 @@ public class Arena {
 		for (int i = 0; i < combtnts.size(); i++)	{
 			Combatant cmbtnt = combtnts.get(i);
 			if (cmbtnt.getStat().getDthStat() == DthStat.DYING)	{
-				cmbtnt.getStat().tickDthTmr();
+				cmbtnt.getStat().tickBleedTmr();
 			}
 		}
 	}
@@ -155,9 +154,9 @@ public class Arena {
 	
 	private void rslvSummons()	{
 		if(summons.size() > 0)	{
-			for(Summon spawn : summons)	{
-				combtnts.add(spawn);
-				Message.spawnAnnouncer(spawn);
+			for(Summon summon : summons)	{
+				combtnts.add(summon);
+				Message.spawnAnnouncer(summon);
 			}
 			resetExhstd();
 		}

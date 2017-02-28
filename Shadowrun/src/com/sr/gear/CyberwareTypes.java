@@ -71,19 +71,6 @@ public enum CyberwareTypes {
 		}
 	};
 	
-//	BONELACING_ALUMINIUM("Aluminium Bone Lacing", "BOD+2, AR+2, STR+2P, ESS-1", 3),
-//	BONELACING_TITANIUM("Titanium Bone Lacing", "BOD+3, AR+3, STR+3P, ESS-1.5", 3),
-//	MUSCLE_REPLACEMENT_2("Muscle Replacement 2", "STR+2, AGI+2, ESS-2"),
-//	MUSCLE_REPLACEMENT_3("Muscle Replacement 3", "STR+3, AGI+3, ESS-3"),
-//	REACTION_ENHANCERS_2("Reaction Enhancers", "REA+2, ESS-0.6"),
-//	REACTION_ENHANCERS_3("Reaction Enhancers", "REA+3, ESS-0.9"),
-//	CONTROL_RIG_2("Rigger Control Rig 2", "+2 to Vehicle skill tests, ESS-2"),
-//	CONTROL_RIG_3("Rigger Control Rig 3", "+3 to Vehicle skill tests, ESS-3"),
-//	WIRED_REFLEXES_2("Wired Reflexes 2", "REA+2, INI+2D6, ESS-3"),	
-//	WIRED_REFLEXES_3("Wired Reflexes 3", "REA+3, INI+3D6, ESS-5");
-//	DERMAL_PLATING_2("Dermal Plating 2", "AR+2, ESS-1.0", 3),
-//	DERMAL_PLATING_3("Dermal Plating 3", "AR+3, ESS-1.5", 3),
-	
 	private final String name;
 	private final int maxRating;
 	public abstract double getEssLoss(int rating);

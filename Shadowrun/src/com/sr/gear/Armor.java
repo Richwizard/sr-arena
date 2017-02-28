@@ -90,9 +90,8 @@ public class Armor {
 	}
 	
 	private String getNameRating()	{
-		char c;
 		if (isCumulative)	{
-			c = '+';
+			char c = '+';
 			return  (name + " " + "[" + c + armRating + "]");
 		}
 		return  (name + " " + "[" + armRating + "]");

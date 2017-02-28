@@ -189,6 +189,7 @@ public class Attribute {
 			break;
 		case 9:
 			setEdg(val);
+			break;
 		}
 	}
 	
@@ -372,8 +373,7 @@ public class Attribute {
 			tmp.append(attr[i]);
 		}
 		tmp.append(" ESS " + essence);
-		String result = new String(tmp);
-		return result;
+		return tmp.toString();
 	}
 
 	public void vldtdIncrmnt(MetaType metaType, int index, int incr)	{
