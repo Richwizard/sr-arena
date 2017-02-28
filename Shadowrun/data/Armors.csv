@@ -1,0 +1,10 @@
+ARMORTYPE,NAME,RATING,ISCUMULATIVE
+ARMOR,"Armor jacket",12,false
+CLOTHING,"Synth leather",4,false
+ARMOR,"Actioneer business clothes",8,false
+ARMOR,"Lined coat",9,false
+ARMOR,"Armor clothing",6,false
+ARMOR,"Armor vest",9,false
+ARMOR,"Chameleon suit",9,false
+ARMOR,"Full body armor",15,false
+ARMOR,"Urban Explorer Jumpsuit",9,false

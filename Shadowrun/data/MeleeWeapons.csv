@@ -1,0 +1,16 @@
+WEAPONTYPE,NAME,ACCURACY,DAMAGE,AP,ISSTUN,VARDMG,REACH
+BLADE,"Combat axe",4,0,-4,false,STRPLUS5,2
+BLADE,"Combat knife",6,0,-3,false,STRPLUS2,0
+BLADE,"Forearm snap-blades",4,0,-2,false,STRPLUS2,0
+BLADE,"Katana",7,0,-3,false,STRPLUS3,1
+BLADE,"Knife",5,0,-1,false,STRPLUS1,0
+BLADE,"Pole Arm",5,0,-2,false,STRPLUS3,3
+BLADE,"Survival Knife",5,0,-1,false,STRPLUS2,0
+BLADE,"Sword",6,0,-2,false,STRPLUS3,1
+CLUB,"Club",4,0,0,false,STRPLUS3,1
+CLUB,"Extendable baton",5,0,0,false,STRPLUS2,1
+CLUB,"Staff",6,0,0,false,STRPLUS3,2
+CLUB,"Stun baton",4,9,-5,true,NONE,1
+OTHER,"Monofilament Whip",5,12,-8,false,NONE,2
+UNARMED,"Knucks",-1,0,0,false,STRPLUS1,0
+UNARMED,"Shock Gloves",-1,8,-5,true,NONE,0

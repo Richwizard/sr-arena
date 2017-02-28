@@ -1,0 +1,12 @@
+WEAPONTYPE,NAME,ACCURACY,DAMAGE,AP,ISSTUN,VARDMG
+HEAVY_PISTOL,"Ares Predator V",5,8,-1,false,NONE
+TASER,"Defiance EX Shocker",4,9,-5, true,NONE
+CROSSBOW,"Medium Crossbow",6,7,-2,false,NONE
+HOLD_OUT,"Streetline Special",4,6,0,false,NONE
+LIGHT_PISTOL,"Colt America L36",7,7,0,false,NONE
+MACHINE_PISTOL,"Steyr TMP",4,7,0,false,NONE
+SUBMACHINE_GUN,"Ingram Smartgun X",4,8,0,false,NONE
+ASSAULT_RIFLE,"Ares Alpha",5,11,-2,false,NONE
+SNIPER_RIFLE,"Ranger Arms SM-5",8,14,-5,false,NONE
+SHOTGUN,"Enfield AS-7",4,13,-1,false,NONE
+THROWING_WEAPON,"Throwing knife",-1,0,-1,false,STRPLUS1
